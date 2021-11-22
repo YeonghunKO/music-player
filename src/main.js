@@ -4,4 +4,4 @@ const $target = document.querySelector('#app');
 
 new App({ $target });
 
-// console.log(target);
+console.log(target);
