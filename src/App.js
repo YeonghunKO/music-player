@@ -7,7 +7,7 @@ import {
 import { request } from './utils/api.js';
 
 import MusicInfo from './components/musicInfo.js';
-import AudioComponent from './components/AudioComponent.js';
+import AudioComponent from './components/audioComponent.js';
 import Navigation from './components/navigation.js';
 import HandleProgress from './components/handleProgress.js';
 
