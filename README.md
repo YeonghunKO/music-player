@@ -73,6 +73,8 @@ nav에서 play/pause를 관리하려면 컴포넌트를 또 넘겨줘야한다.
 
 - loadData는 async 함수이기 때문에 micro task queue로 넘어가기 때문.
 
+11. 알아보니깐 `timeupdate` , `ended` 이벤트가 audio에 있었다. 담 부터는 무슨 기능을 만들기 전에 비슷한 built-in 기능을 제공하고 있는지 MDN에서 찾아보자.
+
 # HTML
 
 1. audio같은 경우는 특별하게 관리하고 싶어서 id를 설정했네.
