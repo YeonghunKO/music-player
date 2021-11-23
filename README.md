@@ -75,6 +75,10 @@ nav에서 play/pause를 관리하려면 컴포넌트를 또 넘겨줘야한다.
 
 11. 알아보니깐 `timeupdate` , `ended` 이벤트가 audio에 있었다. 담 부터는 무슨 기능을 만들기 전에 비슷한 built-in 기능을 제공하고 있는지 MDN에서 찾아보자.
 
+12. music, images, JS, CSS 파일 경로를 제대로 명시해주자! 경로가 '/' 로 시작하면 최상위 root, 즉 깃헙페이지에서는 'https://yeonghunko.github.io/' 에서 시작한다.
+
+근데, https://yeonghunko.github.io/music-player에서 시작해야하므로, '/'를 빼줘야 한다. 
+
 # HTML
 
 1. audio같은 경우는 특별하게 관리하고 싶어서 id를 설정했네.
