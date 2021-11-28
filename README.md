@@ -5,6 +5,8 @@
 - progress bar를 클릭하여 음악 재생 시점을 조절할 수 있다.
 - 음악이 끝나면 자동으로 넘어간다.
 
+[PLAY DEMO](https://yeonghunko.github.io/music-player/)
+
 # CSS
 
 1. inherit: 말그대로 부모의 값을 상속받아서 그대로 쓰는 것이다.
